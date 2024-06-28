@@ -19,7 +19,6 @@ public class SwitchCaseCondition {
         int n2 = sc.nextInt();
 
         switch (choice) {
-
             case 1:
                 System.out.println("Addition = " + (n1 + n2));
                 break;
@@ -32,7 +31,6 @@ public class SwitchCaseCondition {
             case 4:
                 System.out.println("division = " + (n1 / n2));
                 break;
-
             default:
                 System.out.println("Invalid Number");
         }

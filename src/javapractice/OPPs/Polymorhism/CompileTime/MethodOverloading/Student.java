@@ -11,11 +11,9 @@ public class Student {
 
     public void printInfo(String name, int age) {
         System.out.println(name + " " + age);
-
     }
 
     public void printInfo(int age) {
         System.out.println(age);
     }
-
 }

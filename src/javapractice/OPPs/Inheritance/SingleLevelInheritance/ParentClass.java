@@ -29,5 +29,4 @@ public class ParentClass {
     public void mobileBattery() {
         System.out.println("Mobile Battery = 5000 MAh");
     }
-
 }

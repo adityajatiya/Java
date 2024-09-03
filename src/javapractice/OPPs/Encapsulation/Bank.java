@@ -5,13 +5,13 @@ public class Bank {
 
     public String name;
     protected String email;
-    private String Password;
+    private String password;
 
     public String getPassword() {
-        return this.Password;
+        return this.password;
     }
 
-    public void setPassword(String pass) {
-        this.Password = pass;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

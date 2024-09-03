@@ -6,8 +6,7 @@ public class MainClass {
         Student s1 = new Student();
         s1.name = "aditya";
         s1.age = 19;
-        Student s2 = new Student(s1);
-        s2.printInfo();
-
+        Student student = new Student(s1);
+        student.printInfo();
     }
 }

@@ -29,5 +29,4 @@ class BaseClass extends ParentClass {
     public void mobileBattery() {
         System.out.println("Mobile Battery  = 4000 MAh");
     }
-
 }

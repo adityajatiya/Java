@@ -21,5 +21,4 @@ class Mobile {
     public void battery() {
         System.out.println("this is battery");
     }
-
 }

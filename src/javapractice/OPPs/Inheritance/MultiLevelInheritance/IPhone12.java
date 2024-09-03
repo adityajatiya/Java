@@ -21,5 +21,4 @@ class IPhone12 extends IPhone11 {
     public void battery() {
         System.out.println("Battery = 5000 MAh");
     }
-
 }

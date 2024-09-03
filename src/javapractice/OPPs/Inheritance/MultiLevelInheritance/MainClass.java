@@ -3,31 +3,32 @@ package javapractice.OPPs.Inheritance.MultiLevelInheritance;
 public class MainClass {
 
     public static void main(String[] args) {
-        Mobile m = new Mobile();
-        m.camera();
-        m.rom();
-        m.ram();
-        m.battery();
-        m.price();
+        Mobile mobile = new Mobile();
+        mobile.camera();
+        mobile.rom();
+        mobile.ram();
+        mobile.battery();
+        mobile.price();
 
-        IPhone10 m1 = new IPhone10();
-        m1.camera();
-        m1.rom();
-        m1.ram();
-        m1.battery();
-        m1.price();
+        IPhone10 iPhone10 = new IPhone10();
+        iPhone10.camera();
+        iPhone10.rom();
+        iPhone10.ram();
+        iPhone10.battery();
+        iPhone10.price();
 
-        IPhone11 m2 = new IPhone11();
-        m2.camera();
-        m.rom();
-        m2.ram();
-        m2.battery();
-        m2.price();
-        IPhone12 m3 = new IPhone12();
-        m3.camera();
-        m3.rom();
-        m3.ram();
-        m3.battery();
-        m3.price();
+        IPhone11 iPhone11 = new IPhone11();
+        iPhone11.camera();
+        iPhone11.rom();
+        iPhone11.ram();
+        iPhone11.battery();
+        iPhone11.price();
+        
+        IPhone12 iPhone12 = new IPhone12();
+        iPhone12.camera();
+        iPhone12.rom();
+        iPhone12.ram();
+        iPhone12.battery();
+        iPhone12.price();
     }
 }

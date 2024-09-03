@@ -3,14 +3,17 @@ package javapractice.OPPs.Abstraction;
 public class Mainclass {
 
     public static void main(String[] args) {
-        Mercedes m = new Mercedes();
-        Audi a = new Audi();
-        Lamborghini l = new Lamborghini();
-        m.Speed();
-        m.fuel();
-        a.Speed();
-        a.fuel();
-        l.Speed();
-        l.fuel();
+        Mercedes mercedes = new Mercedes();
+
+        mercedes.Speed();
+        mercedes.fuel();
+
+        Audi audi = new Audi();
+        audi.Speed();
+        audi.fuel();
+
+        Lamborghini lamborghini = new Lamborghini();
+        lamborghini.Speed();
+        lamborghini.fuel();
     }
 }

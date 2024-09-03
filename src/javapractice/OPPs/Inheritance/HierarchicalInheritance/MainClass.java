@@ -4,14 +4,13 @@ public class MainClass {
 
     public static void main(String[] args) {
         System.out.println("Cat");
-        Cat s1 = new Cat();
-        s1.eat();
-        s1.meow();
+        Cat cat = new Cat();
+        cat.eat();
+        cat.meow();
+
         System.out.println("Dog");
-
-        Dog s2 = new Dog();
-        s2.bark();
-        s2.eat();
-
+        Dog dog = new Dog();
+        dog.bark();
+        dog.eat();
     }
 }

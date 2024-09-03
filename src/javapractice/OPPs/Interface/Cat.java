@@ -8,7 +8,5 @@ class Cat implements Animal {
 
     public void size() {
         System.out.println("Small");
-
     }
-
 }

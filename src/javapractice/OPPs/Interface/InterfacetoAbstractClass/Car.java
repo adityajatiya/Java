@@ -9,6 +9,5 @@ abstract class Car implements Vehicle {
 
     @Override
     public void stopEngine() {
-
     }
 }

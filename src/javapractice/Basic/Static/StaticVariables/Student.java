@@ -1,4 +1,4 @@
-package javapractice.Basic.StaticMethod;
+package javapractice.Basic.Static.StaticVariables;
 
 public class Student {
 
@@ -6,9 +6,9 @@ public class Student {
     String name;
     static String college;
 
-    Student(int r, String n) {
-        this.rollNo = r;
-        this.name = n;
+    Student(int rollNo, String name) {
+        this.rollNo = rollNo;
+        this.name = name;
     }
 
     public void display() {
